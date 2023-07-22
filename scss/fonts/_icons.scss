@@ -1,0 +1,38 @@
+._icon-check:before {
+	content: "\e907";
+}
+._icon-rhombus:before {
+	content: "\e900";
+}
+._icon-arrow:before {
+	content: "\e901";
+}
+._icon-phone:before {
+	content: "\e902";
+}
+._icon-whatsapp:before {
+	content: "\e903";
+}
+._icon-telegram:before {
+	content: "\e904";
+}
+._icon-mail:before {
+	content: "\e905";
+}
+._icon-time:before {
+	content: "\e906";
+}
+._icon-share:before {
+	content: "";
+	background-image: url("../img/acticle-about/download.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 23px;
+	height: 23px;
+
+	@media (max-width: 1920px) {
+		width: calc(16px + (23 - 16) * ((100vw - 320px) / (1920 - 320)));
+		height: calc(16px + (23 - 16) * ((100vw - 320px) / (1920 - 320)));
+	}
+}
